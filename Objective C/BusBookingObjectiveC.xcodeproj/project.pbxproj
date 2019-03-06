@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90217CFF20EA2D080027F772 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90217CFE20EA2D080027F772 /* AppDelegate.m */; };
+		90217D0520EA2D080027F772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90217D0320EA2D080027F772 /* Main.storyboard */; };
+		90217D0720EA2D090027F772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90217D0620EA2D090027F772 /* Assets.xcassets */; };
+		90217D0A20EA2D090027F772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90217D0820EA2D090027F772 /* LaunchScreen.storyboard */; };
+		90217D0D20EA2D090027F772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90217D0C20EA2D090027F772 /* main.m */; };
+		907B87B521AD343900EB6030 /* MySwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907B87B421AD343900EB6030 /* MySwiftClass.swift */; };
+		909A5A7620ECC397002F8297 /* BookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909A5A7520ECC397002F8297 /* BookingViewController.m */; };
+		909A5A7920ECC3A0002F8297 /* BookingDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909A5A7820ECC3A0002F8297 /* BookingDetailsViewController.m */; };
+		909A5A7C20ECC3A7002F8297 /* OfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909A5A7B20ECC3A7002F8297 /* OfferViewController.m */; };
+		909A5A8520ECD1EE002F8297 /* CustomPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 909A5A8220ECD1EE002F8297 /* CustomPopupView.xib */; };
+		909A5A8620ECD1EE002F8297 /* CustomPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 909A5A8420ECD1EE002F8297 /* CustomPopupView.m */; };
+		909A5A9620ECDA87002F8297 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909A5A9520ECDA87002F8297 /* UIKit.framework */; };
+		909A5A9820ECDA8D002F8297 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 909A5A9720ECDA8D002F8297 /* libstdc++.tbd */; };
+		909A5A9A20ECDA9B002F8297 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909A5A9920ECDA9B002F8297 /* WebKit.framework */; };
+		909A5A9C20ECDAA3002F8297 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909A5A9B20ECDAA3002F8297 /* UserNotifications.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		909A5A9320ECDA30002F8297 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		90217CFA20EA2D080027F772 /* BusBookingObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusBookingObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90217CFD20EA2D080027F772 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90217CFE20EA2D080027F772 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90217D0420EA2D080027F772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90217D0620EA2D090027F772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90217D0920EA2D090027F772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90217D0B20EA2D090027F772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90217D0C20EA2D090027F772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		907B87B321AD343800EB6030 /* BusBookingObjectiveC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BusBookingObjectiveC-Bridging-Header.h"; sourceTree = "<group>"; };
+		907B87B421AD343900EB6030 /* MySwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftClass.swift; sourceTree = "<group>"; };
+		909A5A7420ECC397002F8297 /* BookingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookingViewController.h; sourceTree = "<group>"; };
+		909A5A7520ECC397002F8297 /* BookingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookingViewController.m; sourceTree = "<group>"; };
+		909A5A7720ECC3A0002F8297 /* BookingDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookingDetailsViewController.h; sourceTree = "<group>"; };
+		909A5A7820ECC3A0002F8297 /* BookingDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookingDetailsViewController.m; sourceTree = "<group>"; };
+		909A5A7A20ECC3A7002F8297 /* OfferViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfferViewController.h; sourceTree = "<group>"; };
+		909A5A7B20ECC3A7002F8297 /* OfferViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferViewController.m; sourceTree = "<group>"; };
+		909A5A8220ECD1EE002F8297 /* CustomPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPopupView.xib; sourceTree = "<group>"; };
+		909A5A8320ECD1EE002F8297 /* CustomPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopupView.h; sourceTree = "<group>"; };
+		909A5A8420ECD1EE002F8297 /* CustomPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopupView.m; sourceTree = "<group>"; };
+		909A5A9520ECDA87002F8297 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		909A5A9720ECDA8D002F8297 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		909A5A9920ECDA9B002F8297 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		909A5A9B20ECDAA3002F8297 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90217CF720EA2D080027F772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909A5A9C20ECDAA3002F8297 /* UserNotifications.framework in Frameworks */,
+				909A5A9A20ECDA9B002F8297 /* WebKit.framework in Frameworks */,
+				909A5A9820ECDA8D002F8297 /* libstdc++.tbd in Frameworks */,
+				909A5A9620ECDA87002F8297 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90217CF120EA2D080027F772 = {
+			isa = PBXGroup;
+			children = (
+				90217CFC20EA2D080027F772 /* BusBookingObjectiveC */,
+				90217CFB20EA2D080027F772 /* Products */,
+				909A5A9420ECDA86002F8297 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90217CFB20EA2D080027F772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90217CFA20EA2D080027F772 /* BusBookingObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90217CFC20EA2D080027F772 /* BusBookingObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				909A5A8120ECD1EE002F8297 /* CustomViews */,
+				909A5A7320ECC38A002F8297 /* ViewControllers */,
+				90217CFD20EA2D080027F772 /* AppDelegate.h */,
+				90217CFE20EA2D080027F772 /* AppDelegate.m */,
+				90217D0320EA2D080027F772 /* Main.storyboard */,
+				90217D0620EA2D090027F772 /* Assets.xcassets */,
+				90217D0820EA2D090027F772 /* LaunchScreen.storyboard */,
+				90217D0B20EA2D090027F772 /* Info.plist */,
+				90217D0C20EA2D090027F772 /* main.m */,
+				907B87B421AD343900EB6030 /* MySwiftClass.swift */,
+				907B87B321AD343800EB6030 /* BusBookingObjectiveC-Bridging-Header.h */,
+			);
+			path = BusBookingObjectiveC;
+			sourceTree = "<group>";
+		};
+		909A5A7320ECC38A002F8297 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				909A5A7420ECC397002F8297 /* BookingViewController.h */,
+				909A5A7520ECC397002F8297 /* BookingViewController.m */,
+				909A5A7720ECC3A0002F8297 /* BookingDetailsViewController.h */,
+				909A5A7820ECC3A0002F8297 /* BookingDetailsViewController.m */,
+				909A5A7A20ECC3A7002F8297 /* OfferViewController.h */,
+				909A5A7B20ECC3A7002F8297 /* OfferViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		909A5A8120ECD1EE002F8297 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				909A5A8220ECD1EE002F8297 /* CustomPopupView.xib */,
+				909A5A8320ECD1EE002F8297 /* CustomPopupView.h */,
+				909A5A8420ECD1EE002F8297 /* CustomPopupView.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		909A5A9420ECDA86002F8297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				909A5A9B20ECDAA3002F8297 /* UserNotifications.framework */,
+				909A5A9920ECDA9B002F8297 /* WebKit.framework */,
+				909A5A9720ECDA8D002F8297 /* libstdc++.tbd */,
+				909A5A9520ECDA87002F8297 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90217CF920EA2D080027F772 /* BusBookingObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90217D1020EA2D090027F772 /* Build configuration list for PBXNativeTarget "BusBookingObjectiveC" */;
+			buildPhases = (
+				90217CF620EA2D080027F772 /* Sources */,
+				90217CF720EA2D080027F772 /* Frameworks */,
+				90217CF820EA2D080027F772 /* Resources */,
+				909A5A9320ECDA30002F8297 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusBookingObjectiveC;
+			productName = "Bus Booking";
+			productReference = 90217CFA20EA2D080027F772 /* BusBookingObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90217CF220EA2D080027F772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Adobe Systems";
+				TargetAttributes = {
+					90217CF920EA2D080027F772 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 90217CF520EA2D080027F772 /* Build configuration list for PBXProject "BusBookingObjectiveC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90217CF120EA2D080027F772;
+			productRefGroup = 90217CFB20EA2D080027F772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90217CF920EA2D080027F772 /* BusBookingObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90217CF820EA2D080027F772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90217D0A20EA2D090027F772 /* LaunchScreen.storyboard in Resources */,
+				90217D0720EA2D090027F772 /* Assets.xcassets in Resources */,
+				909A5A8520ECD1EE002F8297 /* CustomPopupView.xib in Resources */,
+				90217D0520EA2D080027F772 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90217CF620EA2D080027F772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909A5A7C20ECC3A7002F8297 /* OfferViewController.m in Sources */,
+				90217D0D20EA2D090027F772 /* main.m in Sources */,
+				909A5A8620ECD1EE002F8297 /* CustomPopupView.m in Sources */,
+				909A5A7920ECC3A0002F8297 /* BookingDetailsViewController.m in Sources */,
+				907B87B521AD343900EB6030 /* MySwiftClass.swift in Sources */,
+				909A5A7620ECC397002F8297 /* BookingViewController.m in Sources */,
+				90217CFF20EA2D080027F772 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90217D0320EA2D080027F772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90217D0420EA2D080027F772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90217D0820EA2D090027F772 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90217D0920EA2D090027F772 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90217D0E20EA2D090027F772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90217D0F20EA2D090027F772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90217D1120EA2D090027F772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FD8MZA7LCQ;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+				);
+				INFOPLIST_FILE = BusBookingObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adobetarget.BusBookingObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Target Enterprise distribution";
+				SWIFT_OBJC_BRIDGING_HEADER = "BusBookingObjectiveC/BusBookingObjectiveC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90217D1220EA2D090027F772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FD8MZA7LCQ;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+				);
+				INFOPLIST_FILE = BusBookingObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adobetarget.BusBookingObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Target Enterprise distribution";
+				SWIFT_OBJC_BRIDGING_HEADER = "BusBookingObjectiveC/BusBookingObjectiveC-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90217CF520EA2D080027F772 /* Build configuration list for PBXProject "BusBookingObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90217D0E20EA2D090027F772 /* Debug */,
+				90217D0F20EA2D090027F772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90217D1020EA2D090027F772 /* Build configuration list for PBXNativeTarget "BusBookingObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90217D1120EA2D090027F772 /* Debug */,
+				90217D1220EA2D090027F772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90217CF220EA2D080027F772 /* Project object */;
+}

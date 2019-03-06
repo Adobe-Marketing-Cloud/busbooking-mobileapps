@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorAccentDark">#6B9F42</color>
+
+
+    <color name="colorControlNormal">@color/colorAccent</color>
+    <color name="colorControlHighlight">@color/colorAccent</color>
+    <color name="colorControlActivated">@color/colorAccent</color>
+    <color name="colorPrimaryOpac">#422196F3</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="submit_button">@color/colorAccent</color>
+    <color name="windowBackgroundSecondary">#FAFAFA</color>
+    <color name="filter_secondary_bg">#EEEAEA</color>
+    <color name="text_disabled_gray">#d0cccc</color>
+    <color name="text_highlighted">@color/colorAccent</color>
+    <color name="divider">#E9E9E9</color>
+    <color name="black">#000000</color>
+
+    <color name="label_floating_opac">#42000000</color>   <!-- BLACK with 26% opacity -->
+    <color name="white_opac">#B3FFFFFF</color>  <!-- White with 70% opacity -->
+    <color name="white">#FFFFFF</color>  <!-- White with 70% opacity -->
+    <color name="black_opac_70">#B3000000</color>  <!-- Black with 70% opacity -->
+    <color name="white_opac_54">#8AFFFFFF</color>  <!-- White with 54% opacity -->
+    <color name="white_opac_37">#5EFFFFFF</color>  <!-- White with 37% opacity -->
+    <color name="black_opac">#DE000000</color>  <!-- BLACK with 87% opacity -->
+    <color name="label_floating_opac_38">#61000000</color>   <!-- BLACK with 38% opacity -->
+    <color name="black_50opac">#80000000</color>
+    <color name="black_opac_54">#8A000000</color>
+    <color name="label_floating">#A4A4A4</color>
+    <color name="error_red">#F44336</color>
+    <color name="label_header_opac">#8A000000</color>  <!-- BLACK with 54% opacity -->
+    <color name="red">#DB4437</color>
+
+</resources>

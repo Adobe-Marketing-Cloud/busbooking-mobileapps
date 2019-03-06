@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VEC SDK Demo 2</string>
+
+    <string name="lb_leaving_from">Origin</string>
+    <string name="lb_going_to">Destination</string>
+    <string name="lb_seat_required">Seats Required</string>
+    <string name="lb_premium_sub_message">Like BMW, Mercedes etc.</string>
+    <string name="lb_premium_buses_only">No Stops</string>
+    <string name="lb_tomorrow">Tomorrow</string>
+    <string name="lb_day_after">Day After</string>
+    <string name="btn_find_buses">get buses</string>
+    <string name="btn_proceed">proceed</string>
+    <string name="lb_default">Relevance</string>
+    <string name="lb_departure">Departure Date</string>
+    <string name="proceed_booking">Proceed to booking?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>

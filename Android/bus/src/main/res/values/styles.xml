@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MaterialTheme" parent="MaterialTheme.Base"></style>
+
+    <style name="MaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--   The color applied to framework controls in their normal state. -->
+        <item name="colorControlNormal">@color/colorAccent</item>
+
+        <!--   The color applied to framework controls in their activated (ex. checked, switch on) state. -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+
+        <!--&lt;!&ndash;  The color applied to framework control highlights (ex. ripples, list selectors). &ndash;&gt;-->
+        <!--<item name="colorControlHighlight">@color/colorControlHighlight</item>-->
+
+        <!--   Set default window/background color -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+
+        <!--   Remove window bar title -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <!--   App branding color for the app bar -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/red</item>
+
+        <!--   App default text styling -->
+        <item name="android:buttonStyle">@style/DefaultButtonStyle</item>
+
+        <!--   App default button styling -->
+        <item name="android:textViewStyle">@style/DefaultTextStyle</item>
+
+        <!--&lt;!&ndash;   App default button styling &ndash;&gt;-->
+        <!--<item name="colorButtonNormal">@color/colorControlHighlight</item>-->
+
+        <item name="android:textColorHint">@color/label_floating_opac</item>
+
+        <item name="actionMenuTextColor">@color/windowBackground</item>
+
+    </style>
+
+    <style name="DefaultTextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="DefaultButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/text_size_toolbar_title</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Toolbar.SubTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+
+    <style name="booking_engine_text">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/black_opac</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="text_floating_label">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/label_floating_opac</item>
+    </style>
+
+
+    <style name="booking_engine_text_regular">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:textColor">@color/text_highlighted</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="button_submit">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+</resources>

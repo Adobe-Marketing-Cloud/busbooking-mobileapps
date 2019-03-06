@@ -1,0 +1,60 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_very_small">2dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_small_regular">6dp</dimen>
+    <dimen name="margin_small_filter">8dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_semi_large">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_regular">10dp</dimen>
+    <dimen name="margin_regular_text">14dp</dimen>
+    <dimen name="margin_filter_element">12dp</dimen>
+    <dimen name="margin_header">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">64dp</dimen>
+    <dimen name="margin_xxxlarge">72dp</dimen>
+    <dimen name="margin_checkbox_negative">-7dp</dimen>
+    <dimen name="margin_train_name">12dp</dimen>
+    <dimen name="edittext_extra_margin">-4dp</dimen>
+    <dimen name="textview_extra_margin">-2dp</dimen>
+    <dimen name="card_extra_margin">-12dp</dimen>
+    <dimen name="card_extra_margin_small">-2dp</dimen>
+    <dimen name="edittext_xextra_margin">-6dp</dimen>
+    <dimen name="dock_button_height_large">119dp</dimen>
+    <dimen name="route_mrgin_top">26dp</dimen>
+
+    <dimen name="seat_layout_cell_height">38dp</dimen>
+    <dimen name="seat_layout_cell_width">38dp</dimen>
+    <dimen name="sl_height">74dp</dimen>
+    <dimen name="floating_edit_text_height">50dp</dimen>
+
+    <dimen name="seat_radius">4dp</dimen>
+    <dimen name="seat_arm_width">32dp</dimen>
+    <dimen name="seat_arm_height">4dp</dimen>
+
+    <dimen name="padding_very_small">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_semi_medium">6dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_regular">10dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    <dimen name="padding_xxlarge">64dp</dimen>
+    <dimen name="padding_warning_img_right">20dp</dimen>
+
+    <dimen name="text_size_very_small">6sp</dimen>
+    <dimen name="text_size_tiny">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_semi_large">18sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_toolbar_title">16sp</dimen>
+    <dimen name="text_size_xlarge">24sp</dimen>
+    <dimen name="text_size_regular">14sp</dimen>
+    <dimen name="divider_height">0.7dp</dimen>
+
+</resources>
