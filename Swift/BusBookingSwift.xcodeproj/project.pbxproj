@@ -362,7 +362,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BusBookingSwift/AdobeTarget",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adobetarget.BusBookingSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BusBookingSwift/BusBookingSwift-Bridging-Header.h";
@@ -391,7 +394,14 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BusBookingSwift/AdobeTarget",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adobetarget.BusBookingSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BusBookingSwift/BusBookingSwift-Bridging-Header.h";
