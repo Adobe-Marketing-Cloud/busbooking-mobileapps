@@ -1,5 +1,5 @@
 // !$*UTF8*$!
-{	
+{
 	archiveVersion = 1;
 	classes = {
 	};
@@ -391,7 +391,10 @@
 					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
 					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adobetarget.BusBookingObjectiveC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -432,7 +435,10 @@
 					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
 					"$(PROJECT_DIR)/BusBookingObjectiveC/AdobeTarget",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adobetarget.BusBookingObjectiveC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
