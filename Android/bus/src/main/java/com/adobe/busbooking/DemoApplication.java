@@ -26,6 +26,10 @@ public class DemoApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        // try{
+
+        //  } catch(InvalidInitException e){}
     }
 
     @Override
