@@ -25,7 +25,6 @@
 
                 <data
                     android:host="com.adobe.example.busbooking"
-                    android:pathPrefix="/test"
                     android:scheme="http" />
             </intent-filter>
         </activity>
